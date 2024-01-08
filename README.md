@@ -28,11 +28,11 @@ Bu proje, Angular 17 kullanılarak geliştirilmiş temel bir e-ticaret uygulamas
 
 ```bash
 git clone https://github.com/nlabsGlobalAngular/basic-ecommerce-frontend-backend.git
-
-
-# Admin Paneli
--**Admin paneline erişmek için tarayıcınızda**
 ```
+
+## Admin Paneli
+- Admin paneline erişmek için tarayıcınızda
+```bash
 http://localhost:4200/dashboard
 ```  
 - adresine gidin.
