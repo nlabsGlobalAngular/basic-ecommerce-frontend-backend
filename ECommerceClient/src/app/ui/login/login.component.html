@@ -1,0 +1,30 @@
+<title>IEA ECommerce - {{title}}</title>
+
+<div class="d-flex justify-content-center align-items-center" style="height: 82vh;">
+    <div class="col-4">
+        <div class="card">
+            <div class="card-header">
+                <h1>Giriş Sayfası</h1>
+                <p>Giriş yapmak için bilgilerinizi doldurun</p>
+            </div>
+            <form autocomplete="off">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" required minlength="3" email class="form-control" name="email" id="email">
+                    </div>
+                    <div class="form-group mt-2">
+                        <label for="password">Password</label>
+                        <input type="password" required class="form-control" name="password" id="password" >
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <button class="btn btn-dark w-100">Giriş Yap</button>
+                        <a routerLink="/register">Hesabınız yok mu? Buraya tıklayarak ücretsiz kayıt olabilirsiniz</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
